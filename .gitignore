@@ -1,0 +1,12 @@
+﻿.env
+*.env
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+frontend/build/
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+.DS_Store
+Thumbs.db

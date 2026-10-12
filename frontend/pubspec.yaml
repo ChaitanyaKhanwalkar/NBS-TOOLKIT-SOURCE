@@ -1,0 +1,32 @@
+name: nbs_toolkit_frontend
+description: Research-grade decision-support frontend for the NbS Toolkit.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  file_picker: ^8.1.7
+  flutter_svg: ^2.0.17
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/diagrams/
+    - assets/logos/ecosoul_logo.png
+    - assets/logos/iit_indore_logo.jpeg
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Variable.ttf
